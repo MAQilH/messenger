@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+  .empty-chat-container {
+    width: 100% !important;
+  }
+}
+.empty-chat-container {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-chat-container .message-card {
+  max-width: 80%;
+  background-color: rgb(199, 199, 199);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgb(112, 112, 112) 5px 5px 10px;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.errors-container {
+  width: 33%;
+  max-width: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* z-index: 1; */
+}

@@ -1,0 +1,11 @@
+messenger-client/.env
+messenger-client/node_modules/
+messenger-server/.env
+messenger-server/node_modules/
+messenger-client/dist/
+messenger-server/public/
+messenger-rclient/dist/
+messenger-rclient/node_modules/
+messenger-rclient/.env
+docker-compose.yml
+docker-compose.yml.save

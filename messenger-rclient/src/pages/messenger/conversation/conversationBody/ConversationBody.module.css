@@ -1,0 +1,5 @@
+.contact__body {
+  overflow-y: scroll;
+  flex: 1;
+}
+  

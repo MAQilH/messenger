@@ -1,0 +1,23 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.left-bar {
+    width: 100%;
+}
+
+.right-bar {
+    flex: 1;
+}
+
+.left-bar, .right-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

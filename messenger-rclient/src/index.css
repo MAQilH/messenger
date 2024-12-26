@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.error {
+  font-size: 0.65rem;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+.full-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.--green-color {
+  color: green;
+  font-weight: bold;
+}
+
+.--blue-color {
+  color: blue;
+  font-weight: bold;
+}
+
+.full-container--center{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-container--blue-gradiant {
+  background: linear-gradient(45deg, rgb(91, 91, 255), rgb(190, 190, 248));
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: rgb(87, 87, 87) 2px 2px 10px;
+}
+
+.card-img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn__submit:hover {
+  cursor: pointer;
+}
+
+.naviaget-link {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.input-field {
+position: relative;
+margin-bottom: 22px;
+width: 90%;
+}
+
+.input-field input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+outline: none;
+box-sizing: border-box;
+transition: border-color 0.3s ease;
+border-color: #74b9ff;
+}
+
+.input-field label {
+position: absolute;
+top: 50%;
+left: 10px;
+transform: translateY(-50%);
+padding: 0 4px;
+color: #777;
+font-size: 14px;
+transition: top 0.3s ease, font-size 0.3s ease;
+pointer-events: none;
+}
+
+.input-field input:focus + label,
+.input-field input:not(:placeholder-shown) + label {
+top: -10px;
+font-size: 12px;
+}
+
+.btn__submit {
+width: 90%;
+padding: 10px;
+background-color: #74b9ff;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+
+.btn__submit:hover {
+background-color: #0984e3;
+}
+
+
+@media screen and (max-width: 400px) {
+  .--deactive {
+      display: none !important;
+  }
+}
